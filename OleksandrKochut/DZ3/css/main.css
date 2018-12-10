@@ -1,0 +1,94 @@
+@font-face{
+	font-family: ballpark;
+	src: url(../font/ballpark.TTF);
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+body{
+	background: navy;
+	margin: 0;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #fff;
+}
+
+header{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-bottom: 5px;
+}
+
+.logo{
+	font-size: 36px;
+	text-align: center;
+	color: #fff;
+	font-family: ballpark;
+}
+
+.logo:hover{
+	color: #fff;
+}
+.nav{
+	float: right;
+	margin: 10px;
+}
+
+nav a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 3px;
+	display: block;
+}
+
+nav a:hover{
+	color: #fff;
+}
+
+nav li{
+	padding-right: 24px;
+	padding-left: 24px;
+	background: url(../img/bg-line.png) no-repeat 100% 50%;
+}
+
+nav li.active a, nav a:hover{
+	background: linear-gradient(to bottom, teal,blue);
+	border-radius: 4px;
+}
+
+form{
+	background: #44ADE2;
+	border-radius: 9px;
+	padding: 4px 0;
+	margin-top: 10px;
+}
+input, button{
+	background: transparent;
+	border: none;	
+}
+
+input[type="text"]{
+	width: 75%;
+}
+
+.center{
+	margin-top: 70px;
+	text-align: center;
+}
+
+footer{
+	margin-top: 50px;
+	font-size: 20px;
+	text-align: center;
+	font-family: ballpark;
+}
+
