@@ -1,0 +1,20 @@
+body{
+	background: #4EB0DA;
+	padding: 100px;
+	text-align: center;
+	background-image: url(img/kiss.png);
+}
+
+input{
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+}
+
+#button:hover{
+	color: red;
+}
+
+input:hover{
+	background: black;
+}
