@@ -1,0 +1,55 @@
+#main-menu {
+    list-style: none;
+    width: 57px;
+}
+
+.menu-item {
+    padding: 0px 7px;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+#main-menu .selected {
+    border: 1px black solid;
+    border-radius: 7px;
+    background-color: chartreuse;
+    cursor: default;
+}
+
+.img-item {
+    width: 100px;
+    height: auto;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.img-item img {
+    width: 100px;
+}
+
+#popup {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+    box-shadow: 0px 1px 12px black;
+    display: none;
+}
+
+#popup img {
+    height: 70%;
+}
+
+#popup .header button {
+    float: right;
+    border: none;
+    background-color: white;
+}
+
+#popup .header {
+    height: 25px;
+}
